@@ -96,6 +96,7 @@ public class HoneypotImplementation {
       	 //Read json data from Json file -> (honeypot.json)
       	 File file = new File(args[0]);
       	 
+		 //Testing to check for git commits
       	 System.out.println(file.getAbsolutePath());
     	 BufferedReader bf = new BufferedReader(new FileReader(file));
          StringBuffer sCurrentLine = new StringBuffer();
